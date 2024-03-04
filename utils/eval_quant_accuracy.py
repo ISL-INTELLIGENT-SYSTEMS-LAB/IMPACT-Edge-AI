@@ -3,8 +3,8 @@ import sys
 import torch
 import numpy as np
 from torchvision import transforms
-from ..data_preprocessing.loader import create_datasets, create_data_loaders
-from ..data_preprocessing.transforms import get_train_transforms, get_val_test_transforms
+from data_preprocessing.loader import create_datasets, create_data_loaders
+from data_preprocessing.transforms import get_train_transforms, get_val_test_transforms
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 DATA_DIR = 'data'
